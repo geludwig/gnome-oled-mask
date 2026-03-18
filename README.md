@@ -1,6 +1,8 @@
 # gnome-oled-mask
 GNOME extension to minimize OLED burn-in by applying a rectangular pixel-shift mask.
 
+![Demo of pixel mask.](https://github.com/geludwig/gnome-oled-mask/blob/main/demo.gif)
+
 ## Tested on
 - Gnome 49 (Linux 6.19.8-1-cachyos)
 
