@@ -29,8 +29,6 @@ export default class OledMaskExtension extends Extension {
             cr.setSource(this.pattern);
             cr.paint();
             cr.restore();
-
-            // FIX: Explicitly dispose the Cairo context to prevent a massive memory leak
             cr.$dispose();
         });
 
@@ -85,7 +83,6 @@ export default class OledMaskExtension extends Extension {
         }
 
         this.timeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, this.shiftIntervalMs, () => {
-            // FIX: Prevent crashes if the timer fires right after the extension is disabled
             if (!this.mask) {
                 this.timeoutId = null;
                 return GLib.SOURCE_REMOVE;
@@ -107,8 +104,7 @@ export default class OledMaskExtension extends Extension {
         
         this.pattern = new Cairo.SurfacePattern(surface);
         this.pattern.setExtend(Cairo.Extend.REPEAT);
-
-        // FIX: Dispose temporary context
+        
         cr.$dispose();
     }
 
