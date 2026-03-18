@@ -1,5 +1,6 @@
 # gnome-oled-mask
-GNOME extension to minimize OLED burn-in by applying a rectangular pixel-shift mask.
+GNOME extension to minimize OLED burn-in by applying a rectangular shifting pixel mask.
+Using a pixel mask ensures that every pixel within the defined area is switched to black periodically.
 
 ![Demo of pixel mask.](https://github.com/geludwig/gnome-oled-mask/blob/main/demo.gif)
 
