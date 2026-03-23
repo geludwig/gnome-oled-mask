@@ -3,7 +3,6 @@ GNOME extension to minimize OLED burn-in by applying a shifting pixel mask.
 
 The extension turns off every second pixel by overwriting it with a black pixel. The mask shifts by one pixel defined by a timer, additionally size and location of the rectengular mask can also be customized. Fullscreen applications disabled the mask.
 
-![Demo of pixel mask.](https://github.com/geludwig/gnome-oled-mask/blob/main/demo.gif)
 
 ## Tested on
 - Gnome 49 (Linux 6.19.8-1-cachyos)
