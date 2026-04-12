@@ -6,7 +6,7 @@ The extension turns off every second pixel by overwriting it with a black pixel.
 ![Demo of pixel mask.](https://github.com/geludwig/gnome-oled-mask/blob/main/demo1.gif)
 
 ## Tested on
-- Gnome 49 (Linux 6.19.8-1-cachyos)
+- Gnome 49, 50 (Linux 6.19.12-1-cachyos)
 
 ## Installation
 ```
