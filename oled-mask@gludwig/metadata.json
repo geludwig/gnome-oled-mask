@@ -1,7 +1,7 @@
 {
   "name": "OLED Pixel Mask",
   "uuid": "oled-mask@gludwig",
-  "shell-version": ["45", "46", "47", "48", "49"],
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
   "description": "Pixel-shift mask to minimize OLED burn-in on static objects.",
   "type": "extension",
   "settings-schema": "org.gnome.shell.extensions.oled-mask"
